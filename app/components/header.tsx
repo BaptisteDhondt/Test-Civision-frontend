@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50 h-[80px]">
-      <div className="container mx-auto px-6 h-full flex items-center justify-between">
+      <div className="container max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
         <div className="flex items-center space-x-8">
           <Link href="/" className="text-2xl font-bold flex items-center">
             <span className="text-black">CIV</span>

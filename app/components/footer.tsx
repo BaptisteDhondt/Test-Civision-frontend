@@ -5,7 +5,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaTiktok } from "rea
 const Footer: React.FC = () => {
   return (
     <footer className="border-t border-gray-200 text-gray-700 py-8">
-      <div className="container mx-auto px-4">
+      <div className="container max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
             <h1 className="text-xl font-bold text-green-600">
