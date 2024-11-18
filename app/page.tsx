@@ -286,7 +286,7 @@ const Dashboard = () => {
       </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow">
+          <div className="bg-white p-6 rounded-lg shadow overflow-x-auto">
             <h3 className="text-lg font-bold text-gray-800 mb-4">Table des données</h3>
             <table className="w-full border border-gray-200">
               <thead>
